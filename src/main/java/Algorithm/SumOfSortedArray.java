@@ -5,7 +5,7 @@ public class SumOfSortedArray {
      * 根据有序数组，和提供的值，计算数组中那两个数相加的和为目标值，返回这两个数的下标，从1开始计数
      * @param numbers numbers
      * @param target target
-     * @return int[]
+     * @return resultInts
      */
     public static int[] twoSum(int[] numbers, int target) {
         int[] resultInts = new int[2];
